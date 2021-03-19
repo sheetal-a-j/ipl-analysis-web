@@ -137,7 +137,7 @@ fetch('data4.json')
           text: 'Number of games played by team by season'
         },
         xAxis: {
-            category:season,
+            categories:season,
 
           crosshair: true
         },
