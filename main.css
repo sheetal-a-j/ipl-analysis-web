@@ -22,7 +22,7 @@
    margin:1rem!important;
 }
 .new1{
-    border-top: 1px double red;
+    border-top: 1px solid red;
 }
 @media screen and (min-width: 790px){
     .graph{
