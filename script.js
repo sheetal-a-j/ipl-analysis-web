@@ -21,7 +21,7 @@ fetch('data1.json')
         yAxis: {
             min: 0,
             title: {
-              text: "Runs"
+              text: "total runs "
             }
           },  
         series: [{
@@ -60,7 +60,7 @@ fetch('data2.json')
         yAxis: {
             min: 0,
             title: {
-              text: "Runs"
+              text: "total runs"
             }
           },  
         series: [{
@@ -96,6 +96,12 @@ fetch('data3.json')
             type: 'category'
 
         },
+        yAxis: {
+            min: 0,
+            title: {
+              text: "umpire count"
+            }
+          },  
         series: [{
             name: 'No of Umpires from Cou',
             data: dataArray
@@ -138,7 +144,7 @@ fetch('data4.json')
         yAxis: {
           min: 0,
           title: {
-            text: 'Runs'
+            text: 'match played'
           }
         },
         tooltip: {
